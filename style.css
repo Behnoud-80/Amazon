@@ -1,0 +1,283 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  height: 100px;
+  flex: 1 0 100px;
+  background: black;
+}
+
+section {
+  height: 400px;
+  flex: 1 0 300px;
+  margin: 10px;
+  background:#fff;
+}
+
+aside {
+  height: 400px;
+  flex: 1 0 300px;
+  margin: 10px;
+  background:#fff;
+}
+
+footer {
+  height: 250px;
+  flex: 1 0 1000px;
+  
+}
+
+.dNone{
+    display: blockS;
+}
+
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 15px 4px 10px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+  
+  
+  
+  nav {
+    background-color: #000;
+    color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 15px 4px 10px;
+  }
+  .dflex {
+    display: flex;
+    align-items: center;
+  }
+  .item {
+    padding: 10px 10px;
+  }
+  .item:hover {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin: -1px;
+  }
+  .logo {
+    text-align: center;
+    margin: 1px;
+    margin-bottom: -5px;
+    padding: 6px 8px 0px 0px;
+    height: 42px;
+  }
+  a {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 5px 5px;
+  }
+  a:hover {
+    border: 1px solid #fff;
+    margin: -1px;
+    border-radius: 3px;
+  }
+  a span {
+    font-size: 14px;
+    margin-left: -10px;
+  }
+  p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .item i {
+    padding: 0 3px;
+    
+  }
+  nav input {
+    width: 740px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: black;
+  }
+  nav button {
+    padding: 10px 10px;
+    color: black;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+  }
+  nav .all {
+    background: #ddd;
+    border-radius: 5px 0px 0px 5px;
+  }
+  nav .search {
+    padding: 10px 17px;
+    margin: -2px;
+    background: rgb(247, 155, 80);
+    border-radius: 0px 5px 5px 0px;
+  }
+  nav .search i,
+  nav .all i {
+    color: black;
+  }
+  
+  .box:hover {
+    border: 4px solid rgb(247, 155, 80);
+    box-shadow: 0px 0px 3px 0px rgb(247, 155, 80);
+    border-radius: 10px;
+  }
+  .subnavigation {
+    background-color: #232f3e;
+    padding: 6px 15px;
+  }
+  .submenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  ul li {
+    list-style: none;
+    font-weight: 500;
+    padding: 1px 5px;
+    font-size: 14px;
+    color: white;
+  }
+  nav .submenu i {
+    font-size: 16px;
+  }
+  .li {
+    margin: -5px;
+    font-size: 20px;
+  }
+  .bg {
+    position: relative;
+    padding: 6px 6px;
+    margin: -5px 0;
+    margin-right: 10px;
+    background-color: rgb(247, 155, 80);
+  }
+
+.nameShop{
+font-weight: bold;
+    color: #000;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: start;
+    margin-left: 5px;
+    display: table; 
+    margin-right: auto;
+     
+
+  
+}
+
+.nameShoposition{
+   margin-top: 20px;
+    display: table; 
+    margin-right: auto; 
+    margin-left: auto
+}
+
+.nameShodiv{
+    font-weight: bold;
+    color:black;
+    height: fit-content;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 160px
+
+}
+
+
+.back{
+    background-color: #000;
+    color: #ddd;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
+.buttonSign{
+    display: table; 
+    margin-right: auto; 
+    margin-left: auto;
+    margin-top: 90px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgb(247, 155, 80);
+    cursor: pointer;
+    font-size: 25px;
+    background-color: rgb(247, 155, 80);
+    border-radius: 4px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffe093;
+    
+}
+
+
+
+
+.footer-container{
+    height: 400px;
+    background-color: slategrey;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr ;
+    padding: 10px;
+}
+
+.footer-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-title~div>a{
+    margin-bottom: 12px;
+    color: #ddd;
+    text-decoration: none;
+    
+
+
+}
+
+.footer-title~div>a:hover{
+    text-decoration: underline;
+    border: 0;
+    
+}
+
+
+
+
+
+
